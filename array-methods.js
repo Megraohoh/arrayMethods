@@ -14,5 +14,8 @@ const properPlanets = planets.map(function(string){
     })
 
 // Use the filter method to create a new array that contains planets with the letter 'e'. Use the includes() method on strings.
-
+const planetsE = properPlanets.filter(planet => {
+    return (planet.includes('e'))
+})
+console.log(planetsE)
 
